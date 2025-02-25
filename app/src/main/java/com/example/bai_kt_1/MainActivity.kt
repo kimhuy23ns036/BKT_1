@@ -43,9 +43,9 @@ data class Product(val id: Int, val name: String, val price: String, val image: 
 fun getSampleProducts(): List<Product> {
     return listOf(
         Product(1, "Product 1", "$10.00", painterResource(id = R.drawable.c7db377b177fc8e2ff75a769022dcc23), "★★★★☆", "This is a great product 1."),
-        Product(2, "Product 2", "$20.00", painterResource(id = R.drawable.c7db377b177fc8e2ff75a769022dcc23), "★★★☆☆", "This is a great product 2."),
-        Product(3, "Product 3", "$30.00", painterResource(id = R.drawable.c7db377b177fc8e2ff75a769022dcc23), "★★★★★", "This is a great product 3."),
-        Product(4, "Product 4", "$40.00", painterResource(id = R.drawable.c7db377b177fc8e2ff75a769022dcc23 ), "★★☆☆☆", "This is a great product 4.")
+        Product(2, "Product 2", "$20.00", painterResource(id = R.drawable.sp1), "★★★☆☆", "This is a great product 2."),
+        Product(3, "Product 3", "$30.00", painterResource(id = R.drawable.sp2), "★★★★★", "This is a great product 3."),
+        Product(4, "Product 4", "$40.00", painterResource(id = R.drawable.sp4 ), "★★☆☆☆", "This is a great product 4.")
     )
 }
 
